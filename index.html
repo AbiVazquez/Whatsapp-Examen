@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<title>Whatsapp Web</title>
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	  	<!-- Vincula los CSS que faltan -->
+	  	<link rel="stylesheet" href="css/main.css">
+	  	<link rel="stylesheet" href="css/queries.css">
+	  	<link rel="stylesheet" href="css/icomoon.css">
+	  	<link rel="stylesheet" href="css/font-awesome.min.css">
+	  	<!-- bootstrap -->
+	 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	</head>
+  <body>
+  <div class="bg-gris">
+  <div class="bg-verde">
+	<!-- HEADER -->
+<section>
+	<div class="container">
+		<div class="row top">
+			<div class="col-md-4 gris">
+        <div class="row">
+          <div class="col-md-6 col-xs-6 top">
+				    <img src="image/gian.jpg" class="circulo">
+          </div>
+          <div class="col-md-6 col-xs-6 top">
+				    <span class="icon-dots-three-vertical fa-2x float icon-gray padding"></span>
+				    <span class="icon-message fa-2x float icon-gray padding"></span>
+          </div>
+        </div>
+			</div>
+			<div class="col-md-8 gris hidden-xs">
+        <div class="row">
+          <div class="col-md-1 top-1">
+				    <img src="image/logocodeacademy.png" class="circulo">
+          </div>
+          <div class="col-md-9 top-1">
+            <p class="p-size">Laboratoria Peru</p>
+            <p>Ana Maria, Aldo, Gian, Mariana, 
+            papu, Tu</p>
+          </div>
+          <div class="col-md-2 top-1">
+				    <span class="icon-dots-three-vertical float fa-2x icon-gray padding"></span>
+            <span class="icon-attachment fa-2x float icon-gray padding"></span>
+          </div>
+        </div>
+			</div>
+		</div>
+	</div>
+	<!-- CONTACTOS -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-xs-12 white" id="scroll-1">
+        <form  border-bottom="1" style="width:100%">
+          <div class="form-group top-5">
+            <input id="search" type="text" class="form-control"placeholder="Busca o empezar un chat nuevo" class="icon-search" onkeyup="doSearch()">
+          </div>
+        </form>
+        <table id="contactos">
+          <tr>
+            <td class="padding">
+               <img src="image/logocodeacademy.png" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Laboratoria Peru</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding">
+              <img src="image/raymi.jpg" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Raymi Saldomando</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding">
+              <img src="image/mariana.jpg" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Mariana Costa</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding">
+              <img src="image/anamaria.jpg" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Ana Maria Martinez Franklin</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding">
+              <img src="image/rodulfo.jpg" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Rodulfo Prieto</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding">
+              <img src="image/andrea.jpg" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Andrea Lamas</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding">
+              <img src="image/mariapaula.jpg" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Maria Paula Rivarola</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding">
+              <img src="image/katy.jpg" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Katy Sanchez</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="padding">
+              <img src="image/aldo.jpg" class="circulo">
+            </td>
+            <td>
+              <p class="p-size">Aldo Alfaro</p>
+            </td>
+          </tr>
+        </table>
+      </div> 
+	<!-- CONVERSACION -->
+  <div class="col-md-8 bg-img  hidden-xs" id="conversacion">
+    <div class="row" id="scroll">
+      <div class="top" id="lista">
+        
+      </div>
+    </div>
+    <div class="bg-gray">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-1 icon-o">
+            <span class="icon-insert_emoticon fa-2x icon-gray"></span>
+          </div>
+          <div class="col-md-10 form-group top-1">
+            <form class="formulario" action="">
+              <input class="form-control" type="text" id="tareaInput" placeholder="Escribe tu mensaje aquí">
+            </form>
+          </div>
+          <div class="top-1">
+            <span class="icon-mic fa-2x icon-gray" id="btn-agregar"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+	 <!-- jQuery -->
+    <script src="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+  </div>
+  </div>
+	</body>
+</html>

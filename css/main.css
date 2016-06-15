@@ -1,0 +1,121 @@
+/*	COMUN*/
+.top{
+	margin-top: 2%;
+}
+.top-1{
+	margin-top: 1%;
+}
+.top-5{
+	margin-top: 5%;
+}
+.top-10{
+	margin-top: 10%;
+}
+.padding{
+	padding: 10px;
+}
+.circulo{
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+.float{
+	float: right;
+}
+/*FONDOS*/
+.bg-verde{
+	background-color: #1abc9c;
+	height: 130px;
+
+}
+.bg-gris{
+	background-color: #e0ddd8;
+	height: 665px;
+}
+/*ENCABEZADO*/
+.gris{
+	border: 1px solid #B0C7B9;
+	background-color: #dfdfdf;
+	height: 70px;
+}
+.icon-gray{
+	color: gray;
+}
+/*CONTACTOS*/
+.white{
+	background-color: white;
+	border-bottom: 1px solid #B0C7B9;
+	border-left: 1px solid #B0C7B9;
+}
+td{
+	width: 1%;
+	border-bottom: 1px solid #B0C7B9;
+}
+.p-size{
+	font-size: 15px;
+}
+.p-space{
+	color: #aaaaaa;
+
+}
+#scroll-1{
+  	overflow-y: scroll;
+  	height: 535px;
+}
+.form{
+	width: 30%;
+}
+/*CONVERSACION*/
+.bg-img{
+	background-image: url("../image/chat-panel-bg.png");
+	width: 100%;
+	height: 485px;
+	background-color: #eeeeee;
+}
+.bg-white{
+	background-color: white;
+	width: 50%;
+	height: 89px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.font{
+	color: #42bec3;
+}
+.float{
+	float: right;
+}
+.font2{
+	color: #fea5be;
+}
+.font3{
+	color: #3dc895;
+}
+.bg-green{
+	background-color: #ccffad;
+	width: 30%;
+	height: 53px;
+	border-radius: 10px;
+	padding: 5px;
+	margin-left: 500px;
+	margin-top: 2%;
+}
+.font4{
+	color: #ffe55e;
+}
+#scroll{
+	overflow-y: scroll;
+	height: 480px;
+}
+.bg-gray{
+	background-color: #dfdfdf;
+	border: 1px solid #B0C7B9;
+	width: 104%;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: -15px;
+}
+.icon-o{
+	padding: 10px;
+	text-align: right;
+}
